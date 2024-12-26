@@ -1,0 +1,112 @@
+@font-face {
+    font-family: gilroy;
+    src: url(/Gilroy-Semibold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.card{
+    background-color: black;
+    border: 1px solid black;
+    height: 40vmax;
+    width: 25vmax;
+    border-radius: 2vw;
+    overflow: auto;
+    border: 0.2vw solid aliceblue;
+    position: relative;
+}
+
+.card h3{
+    background-color: black;
+    padding-bottom: 25px;
+    font-size: 2vw;
+    font-family: gilroy;
+    font-weight: 900;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.card::-webkit-scrollbar{
+    display: none;
+}
+
+.allstatus{
+    padding: 20px;
+}
+
+.status{
+    height: 5vw;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.status img{
+    height: 75%;
+    width: 20%;
+    
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    border: 4px solid rgb(20, 133, 20);
+    pointer-events: none;
+}
+
+.status h4{
+    font-size: 23px;
+    color: rgb(180, 183, 185);
+}
+.status h5{
+    color: rgb(173, 172, 172);
+}
+
+.status-1{
+    pointer-events: none;
+}
+
+.full{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: none;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+/* 
+.full h2{
+    padding: 20px;
+} */
+
+.progress{
+    height: 0.3vw;
+    width: 100%;
+    background-color: rgb(131, 131, 131);
+}
+
+.growth{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(216, 217, 218);
+}
+
+.fullUser{
+    margin-top: 1vw;
+}
+.top{
+    padding: 20px;
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: ha;
+    src: url(/Gilroy-Semibold.otf);
+}
+
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all ease 0.3s;
+}

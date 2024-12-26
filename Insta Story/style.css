@@ -1,0 +1,170 @@
+@font-face {
+    font-family: gilroy;
+    src: url(/Gilroy-Semibold.otf);
+}
+@font-face {
+    font-family: jelly;
+    src: url(/LemonJellyPersonalUse-dEqR.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.igcard{
+    position: relative;
+    height: 44vmax;
+    width: 25vmax;
+    border-radius: 1.5vw;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    border: 0.1vw solid black;
+}
+
+.igcard::-webkit-scrollbar{
+    display: none;
+}
+
+.storiyan{
+    height: 7.5vw;
+    width: 100%;
+    /* background-color: rgb(146, 151, 157); */
+    padding: 1vw;
+    gap: 15px;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    /* box-shadow: 0px 0.5px 1px black; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.storiyan::-webkit-scrollbar{
+    display: none;
+}
+
+.story{
+    height: 5vw;
+    width: 5vw;
+    background: linear-gradient(to right,rgb(243, 41, 41),rgb(248, 3, 203),rgb(214, 43, 43) ,rgb(255, 0, 217));
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5vw;
+    box-shadow: 2px 5px 5px rgb(112, 112, 112);
+}
+
+.story img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    padding: 0.2vw;
+    object-fit: cover;
+}
+
+.story h4{
+    font-size: 0.7vw;
+    margin-left: 0.6vw ;
+}
+
+
+.full{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    /* background-color: aqua; */
+    background-size: cover;
+    background-position: center;
+    padding: 0.7vw 1vw;
+    /* background: linear-gradient(black,gray); */
+    
+}
+
+.progress{
+    background-color: rgba(94, 93, 93, 0.683);
+    border-radius: 2vw;
+}
+
+.growth{
+    height: 0.5vw;
+    width: 0%;
+    background-color: rgba(232, 228, 228, 0.683);
+    border-radius: 3vw;
+}
+
+.full h2{
+    color: rgb(200, 201, 202);
+    margin-top: 0.5vw;
+    font-size: 1.2vw;
+}
+
+
+
+
+.insta{
+    padding: 0.5vw 1vw;
+    font-size: 2.5vw;
+    margin-bottom: -1vw;
+    font-family: "jelly";
+    font-weight: 500;
+}
+
+
+.post{
+    padding: 0vw 1vw;
+}
+
+.uppost{
+    margin-top: 1vw;
+    height: 2vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.profilepic{
+    width: 2.5vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.uppost-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1vw;
+}
+
+
+.newpost{
+    margin-top: 0.5vw;
+    height: 20vw;
+    width: 100%;
+    object-fit: cover;
+}
+
+.lcs{
+    font-size: 1.5vw;
+}
+
+.lowpost-1 h4{
+    display: inline-block;
+    font-size: 0.9vw;
+    font-weight: 900;
+}
+
+.ri-heart-line:active{
+    color: red;
+}

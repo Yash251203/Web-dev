@@ -1,0 +1,108 @@
+@font-face {
+    font-family: gilroy;
+    src: url(/Gilroy-Semibold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    background-image: linear-gradient(lightblue,white);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 300px;
+    padding: 5px 10px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    transition: all ease 0.2s;
+    
+}
+
+.card:hover{
+    scale: 1.05;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    box-shadow: 0px 0px;
+}
+.imgs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+}
+
+.backimg{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 65px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.profileimg{
+    position: absolute;
+    top: 60%;
+    height: 35%;
+    width:25%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 100px;
+    border: 5px solid white;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.nums{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.line{
+    margin: 15px 30px;
+    padding: 1px;
+    width: 100px;
+    background-color: rgb(168, 164, 164);
+}
+
+.fullname{
+    font-size: 20px;
+    color: rgb(122, 120, 120);
+    padding-bottom: 10px;
+}
+
+.discription{
+    padding-bottom: 10px;
+}
+
+.h{
+    color: rgb(108, 106, 106);
+}
